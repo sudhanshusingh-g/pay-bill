@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay Bill Challenge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <img src="bill-image.png" alt="payment-illustration">
+    
+    <h1 id="heading"><strong>Who will pay?</strong></h1>
+    <form>
+        <input type="text" size="32" placeholder="Enter your friend name" id="friendName" ><br>
+        <button onclick="save(); return false;" id="show">Save</button><br>
+        <button type="button" id="select" onclick="whoWillPay()">Random Selection</button>
+    </form>
+    <br>
+
+    <p id="user"></p>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
